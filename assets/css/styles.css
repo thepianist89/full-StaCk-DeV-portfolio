@@ -149,11 +149,11 @@ img {
 }
 
 /* =========perfi element========== */
-.perfi {
+.perfil {
   width: 250px;
   height: 250px;
-  background-color: var(--body-color);
-  border: 8px solid var(--first-color);
+  /* background-color: var(--body-color); */
+  /* border: 8px solid var(--first-color); */
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -371,8 +371,70 @@ img {
   padding-block: 1rem 3rem;
 }
 
+.home__button {
+  justify-self: center;
+}
 /*=============== ABOUT ===============*/
+.about-page {
+  padding-bottom: 4rem;
+}
 
+.about__perfil {
+  justify-self: center;
+}
+
+.about__content {
+  row-gap: 4rem;
+}
+
+.about__data {
+  row-gap: 2rem;
+}
+
+.about__info {
+  row-gap: 0.75rem;
+  text-align: center;
+}
+
+.about__name {
+  font-size: var(--h1-font-size);
+}
+
+.about__profession {
+  font-size: var(--h2-font-size);
+}
+.about__description b {
+  color: var(--first-color);
+}
+
+/* le button de la section about */
+.about__button {
+  justify-self: center;
+}
+
+.about__skills-title {
+  font-size: var(--h3-font-size);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about__skills-img {
+  width: 35px;
+  transition: transform 0.4s;
+}
+
+.about__skills-img:hover {
+  transform: translateY(-0.5rem);
+}
+
+/* le contenu de la section skills dans notre page d'About */
+.about__skills-content {
+  grid-template-columns: repeat(5, max-content);
+  justify-content: center;
+  align-items: center;
+  /* gap : rows columns */
+  gap: 2rem 1.5rem;
+}
 /*=============== SERVICES ===============*/
 
 /* Active modal */
